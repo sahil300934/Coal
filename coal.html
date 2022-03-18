@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankar Singh Coal depot</title>
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2014/06/21/20/11/power-station-374097_960_720.jpg');
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .box {
+            border: 2px solid red;
+            /* height:45px; */
+            /* width:345px; */
+            color: white;
+        }
+
+        #first {
+            display: inline-block;
+            position: absolute;
+            left: 4px;
+            top: 5px;
+            padding: 5px;
+            margin: 35px 48px;
+            border:none
+        }
+
+        #second {
+            display: block;
+            /* position:absolute; */
+            width: 606px;
+            margin: 45px auto;
+            padding: 5px;
+            border:none;
+            background-color: black;
+
+        }
+
+        #third {
+            display: inline-block;
+            position: absolute;
+            top: 5px;
+            right: 4px;
+            padding: 5px;
+            margin: 35px 48px;
+            border:none;
+            background-color:red;
+        }
+
+        .box img {
+            width: 129px;
+            height: 92px;
+            border: none;
+        }
+
+        .box p {
+            text-align: center;
+            font-size:19px;
+
+        }
+
+        .navbar li a {
+            color: aqua;
+            text-decoration: none;
+            padding: 25px;
+            margin: 13px;
+            font-size: 20px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* padding:34px 45px; */
+
+        }
+
+        .btn {
+            background-color: black;
+            color: aquamarine;
+            cursor: pointer;
+           
+            margin: 2px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 19px;
+            height:29px;
+        }
+
+        .container {
+            border: 2px solid rgb(195, 255, 0);
+            width: 480px;
+            margin: 103px 539px;
+            height: 452px;
+        }
+
+        .container h1 {
+            color: rgb(17, 14, 209);
+            text-align: center;
+            padding: 22px 1px;
+            margin: 14px 1px;
+        }
+
+        .contain {
+            text-align: center;
+        }
+
+        .contain input {
+            text-align: center;
+            width: 379px;
+            margin: 3px;
+            padding: 6px;
+            font-size: 16px;
+            background-color: rgb(244, 255, 0);
+            color: pink;
+        }
+
+        .contains input {
+            margin: 22px;
+            width: 95px;
+            padding: 4px;
+            font-size: 16px;
+            background-color: rgb(244, 255, 0);
+        }
+
+        .containss input {
+            position: absolute;
+            top: 513px;
+            right: 511px;
+            width: 95px;
+            padding: 4px;
+            font-size: 16px;
+            background-color: rgb(244, 255, 0);
+        }
+        #ghj{
+            color:yellow;
+        }
+        #ghj:hover{
+            color:pink;
+        }
+        .navbar li a:hover{
+            color:green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="first">
+        <img src="https://cdn.pixabay.com/photo/2020/03/01/12/36/fire-4892711_960_720.jpg" alt="error">
+        <p>Coal Depot</p>
+    </div>
+    <div class="box" id="second">
+        <nav class="navbar">
+            <ul>
+                <li><a href="" id="ghj">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="box" id="third">
+        <button class="btn">Call us</button>
+        <button class="btn">Read more</button>
+    </div>
+    <div class="container">
+        <h1>Order Now</h1>
+        <form action="backened.php">
+            <div class="contain">
+                <input type="text" name="name" placeholder="Enter Your Name">
+            </div>
+            <div class="contain">
+                <input type="text" name="phone" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="contain">
+                <input type="text" name="address" placeholder="Enter Your Address">
+            </div>
+            <div class="contain">
+                <input type="text" name="email" placeholder="Enter Your Email Id">
+            </div>
+            <div class="contains">
+                <input type="submit" value="submit">
+            </div>
+            <div class="containss">
+                <input type="reset" value="reset">
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
